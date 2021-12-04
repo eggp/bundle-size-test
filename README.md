@@ -22,3 +22,7 @@ Abban az esetben ha environment.production === true, akkor a bundle-be mar nem s
 Test1: sima env
 Test2: env Readonly interface-vel van megjelolve
 Test3: env egy Object.freeze-vel van korulveve
+
+
+### Build parancs:
+npx nx run-many --target=build --all
