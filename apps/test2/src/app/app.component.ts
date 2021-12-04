@@ -1,5 +1,5 @@
 import { Component } from '@angular/core';
-import { environment } from '../environments/environment';
+import {environment} from '../environments/environment';
 
 @Component({
   selector: 'bundle-size-test-root',
@@ -7,7 +7,6 @@ import { environment } from '../environments/environment';
   styleUrls: ['./app.component.scss'],
 })
 export class AppComponent {
-
   constructor() {
     if (environment.production === false) {
       console.log('uzike1');
